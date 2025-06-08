@@ -11,7 +11,7 @@ A React-based form application that implements client-side validation without th
 3. **Show/Hide Password**: A toggle button to show or hide the password.
 4. **Dynamic Dropdowns**: Country and city fields dynamically update based on the user's selection.
 5. **Field-Specific Validations**:
-   - **First Name & Last Name**: Alphabets only.
+   - **First Name & Last Name**: Alphabets and spaces only.
    - **Email**: Must include "@".
    - **Password**: At least 8 characters with one uppercase, one lowercase, one number, and one special character.
    - **Phone Number**: Format as `+CountryCode Number`.
@@ -29,14 +29,14 @@ A React-based form application that implements client-side validation without th
 ## Screenshots
 
 ### 1. Form Page
-![Form_Page_1](#)
+![Form_Page_1](https://github.com/sahithimvn09/celebal_week_1_task/blob/fe0361c521b1348979ded3a554724f94a1c5e83e/Screenshot%202025-06-08%20175018.png)
 
-![Form_Page_2](#)
+![Form_Page_2](https://github.com/sahithimvn09/celebal_week_1_task/blob/fe0361c521b1348979ded3a554724f94a1c5e83e/Screenshot%202025-06-08%20174517.png)
 
 *Description: This screenshots shows the form with various fields, real-time validation, and error messages.*
 
 ### 2. Success Page
-![Success_Page](#)  
+![Success_Page](https://github.com/sahithimvn09/celebal_week_1_task/blob/fe0361c521b1348979ded3a554724f94a1c5e83e/Screenshot%202025-06-08%20174625.png)  
 
 *Description: This screenshot displays the structured table with all submitted details.*
 
@@ -54,8 +54,8 @@ A React-based form application that implements client-side validation without th
 
 1. Clone the repository:
    ```bash
-   git clone 
-   cd celebal_week_1
+   git clone https://github.com/sahithimvn09/celebal_week_1_task.git
+   cd celebal_week_1_task
 2. Install dependencies:
     ```bash
     npm install
